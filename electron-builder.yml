@@ -1,0 +1,27 @@
+appId: com.omniwork.ai
+productName: OmniWork AI
+copyright: Copyright © 2026 OmniWork AI
+directories:
+  buildResources: resources
+  output: dist
+files:
+  - '!**/.vscode/*'
+  - '!src/*'
+  - '!tests/*'
+  - '!scripts/*'
+  - '!.env'
+  - '!.env.example'
+win:
+  icon: resources/icon.ico
+  target:
+    - target: nsis
+      arch: [x64, arm64]
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  installerIcon: resources/icon.ico
+  uninstallerIcon: resources/icon.ico
+  installerSidebar: resources/installerSidebar.bmp
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: OmniWork AI

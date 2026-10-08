@@ -1,0 +1,91 @@
+{
+  "app": {
+    "name": "OmniWork AI",
+    "tagline": "شوێنی کاری بەرهەمدارانەی بە هێزی AI"
+  },
+  "titleBar": {
+    "menu": "مێنیو"
+  },
+  "languageToggle": {
+    "en": "EN",
+    "ckb": "کو"
+  },
+  "dashboard": {
+    "apps": {
+      "excel": "ئێکسێل",
+      "word": "وۆرد",
+      "powerpoint": "پاوەرپۆینت",
+      "comingSoon": "بەم زووانە"
+    },
+    "statusBar": {
+      "aiReady": "سیستەمی AI: ئامادەیە",
+      "aiConnecting": "سیستەمی AI: پەیوەستدەبێت...",
+      "aiError": "سیستەمی AI: هەڵە",
+      "recentSheets": "خشتە دوایینەکان",
+      "instantLaunch": "کردنەوەی خێرا",
+      "noRecentFiles": "هیچ فایلێکی دوایین نییە"
+    }
+  },
+  "workspace": {
+    "toolbar": {
+      "back": "گەڕانەوە بۆ دەشبۆرد",
+      "save": "هەڵگرتن",
+      "saveAs": "هەڵگرتن وەک",
+      "open": "کردنەوەی فایل",
+      "untitled": "خشتەی بێناو",
+      "unsavedChanges": "گۆڕانکارییە هەڵنەگیراوەکان"
+    },
+    "sidebar": {
+      "title": "یاریدەدەری AI",
+      "selectedCell": "خانەی هەڵبژێردراو",
+      "noSelection": "کلیک لە خانەیەک بکە بۆ هەڵبژاردن",
+      "request": "داواکاری",
+      "requestPlaceholder": "باسبکە چی دەتەوێت لەگەڵ ئەم خانەیەدا بکەیت...",
+      "proceed": "جێبەجێکردن",
+      "processing": "چارەسەرکردن...",
+      "result": "ئەنجام",
+      "resultPlaceholder": "ئەنجام لێرە دەردەکەوێت",
+      "copy": "کۆپی",
+      "copied": "کۆپی کرا!",
+      "apply": "جێبەجێکردن لە خانەدا",
+      "applied": "جێبەجێ کرا!",
+      "history": "مێژووی فۆرمولا",
+      "noHistory": "هێشتا هیچ فۆرمولایەک دروست نەکراوە",
+      "backgroundSync": "هاوکاتکردنی AI لە پشتەوە",
+      "statusActive": "چالاک",
+      "statusIdle": "بێکار",
+      "statusError": "هەڵە"
+    }
+  },
+  "errors": {
+    "noInternet": "پەیوەندی ئینتەرنێت نییە. خشتەکە بەبێ ئینتەرنێت کاردەکات، تایبەتمەندییەکانی AI پێویستیان بە ئینتەرنێتە.",
+    "aiUnavailable": "خزمەتگوزاری AI کاتییانە بەردەست نییە. تکایە دووبارە هەوڵبدەرەوە.",
+    "fileOpenFailed": "فایلەکە نەکرایەوە. تکایە فایلەکە بپشکنە و دووبارە هەوڵبدەرەوە.",
+    "fileSaveFailed": "فایلەکە هەڵنەگیرا. تکایە دووبارە هەوڵبدەرەوە.",
+    "invalidCell": "ناونیشانی خانە نادروستە. فۆرماتی وەک A1 یان D14 بەکاربهێنە.",
+    "emptyRequest": "تکایە پێش جێبەجێکردن داواکارییەک بنووسە.",
+    "spreadsheetError": "هەڵەی مەکینەی خشتە. دەتەوێت دووبارە دەستپێبکەیتەوە؟",
+    "restart": "دەستپێکردنەوە"
+  },
+  "setup": {
+    "apiKeyTitle": "دامەزراندنی AI",
+    "apiKeyDescription": "کلیلی API ی Google Gemini بنووسە بۆ چالاککردنی تایبەتمەندییەکانی AI.",
+    "apiKeyPlaceholder": "کلیلی API ی Gemini بنووسە",
+    "apiKeySubmit": "هەڵگرتن و بەردەوامبوون",
+    "apiKeySkip": "تێپەڕاندن (تایبەتمەندییەکانی AI ناچالاکە)"
+  },
+  "common": {
+    "close": "داخستن",
+    "cancel": "هەڵوەشاندنەوە",
+    "confirm": "دڵنیاکردنەوە",
+    "yes": "بەڵێ",
+    "no": "نەخێر",
+    "loading": "بارکردن...",
+    "timeAgo": {
+      "justNow": "ئێستا",
+      "minutesAgo": "{{count}} خولەک لەمەوپێش",
+      "hoursAgo": "{{count}} کاتژمێر لەمەوپێش",
+      "daysAgo": "{{count}} ڕۆژ لەمەوپێش"
+    }
+  }
+}

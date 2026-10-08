@@ -1,0 +1,30 @@
+/* Custom overrides for Univer spreadsheet to match glassmorphism dark theme */
+
+.univer-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #0b1120;
+}
+
+/* Ensure Univer toolbar and formula bar fit sleek dark UI */
+.univer-workbench {
+  background-color: #0f172a !important;
+}
+
+.univer-toolbar {
+  background-color: rgba(15, 23, 42, 0.95) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: #f8fafc !important;
+}
+
+.univer-formula-bar {
+  background-color: rgba(30, 41, 59, 0.8) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: #f8fafc !important;
+}
+
+.univer-sheet-tab-bar {
+  background-color: rgba(15, 23, 42, 0.95) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}

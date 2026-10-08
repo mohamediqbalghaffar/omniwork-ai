@@ -1,0 +1,91 @@
+{
+  "app": {
+    "name": "OmniWork AI",
+    "tagline": "Your AI-Powered Productivity Workspace"
+  },
+  "titleBar": {
+    "menu": "Menu"
+  },
+  "languageToggle": {
+    "en": "EN",
+    "ckb": "کو"
+  },
+  "dashboard": {
+    "apps": {
+      "excel": "Excel",
+      "word": "Word",
+      "powerpoint": "PowerPoint",
+      "comingSoon": "Coming Soon"
+    },
+    "statusBar": {
+      "aiReady": "AI Backend: Ready",
+      "aiConnecting": "AI Backend: Connecting...",
+      "aiError": "AI Backend: Error",
+      "recentSheets": "Recent Sheets",
+      "instantLaunch": "Instant Launch",
+      "noRecentFiles": "No recent files"
+    }
+  },
+  "workspace": {
+    "toolbar": {
+      "back": "Back to Dashboard",
+      "save": "Save",
+      "saveAs": "Save As",
+      "open": "Open File",
+      "untitled": "Untitled Spreadsheet",
+      "unsavedChanges": "Unsaved changes"
+    },
+    "sidebar": {
+      "title": "AI Assistant",
+      "selectedCell": "Selected Cell",
+      "noSelection": "Click a cell to select",
+      "request": "Request",
+      "requestPlaceholder": "Describe what you want to do with this cell...",
+      "proceed": "Proceed",
+      "processing": "Processing...",
+      "result": "Result",
+      "resultPlaceholder": "Result will appear here",
+      "copy": "Copy",
+      "copied": "Copied!",
+      "apply": "Apply to Cell",
+      "applied": "Applied!",
+      "history": "Formula History",
+      "noHistory": "No formulas generated yet",
+      "backgroundSync": "AI Background Sync",
+      "statusActive": "Active",
+      "statusIdle": "Idle",
+      "statusError": "Error"
+    }
+  },
+  "errors": {
+    "noInternet": "No internet connection. Spreadsheet works offline, AI features need internet.",
+    "aiUnavailable": "AI service temporarily unavailable. Please try again.",
+    "fileOpenFailed": "Could not open file. Please check the file and try again.",
+    "fileSaveFailed": "Could not save file. Please try again.",
+    "invalidCell": "Invalid cell address. Use format like A1 or D14.",
+    "emptyRequest": "Please enter a request before proceeding.",
+    "spreadsheetError": "Spreadsheet engine error. Would you like to restart?",
+    "restart": "Restart"
+  },
+  "setup": {
+    "apiKeyTitle": "Set Up AI",
+    "apiKeyDescription": "Enter your Google Gemini API key to enable AI features.",
+    "apiKeyPlaceholder": "Enter your Gemini API key",
+    "apiKeySubmit": "Save & Continue",
+    "apiKeySkip": "Skip (AI features disabled)"
+  },
+  "common": {
+    "close": "Close",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "loading": "Loading...",
+    "timeAgo": {
+      "justNow": "Just now",
+      "minutesAgo": "{{count}} min ago",
+      "hoursAgo": "{{count}} hr ago",
+      "daysAgo": "{{count}} day ago"
+    }
+  }
+}

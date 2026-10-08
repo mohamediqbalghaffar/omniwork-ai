@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" fill="none">
+  <rect width="72" height="72" rx="16" fill="url(#excel-bg)" />
+  <rect x="14" y="14" width="44" height="44" rx="8" fill="#107C41" />
+  <path d="M24 23L48 23L48 49L24 49Z" fill="white" fill-opacity="0.1" />
+  <path d="M26 27H46V33H26V27Z" fill="white" fill-opacity="0.9" />
+  <path d="M26 36H46V45H26V36Z" fill="white" fill-opacity="0.9" />
+  <rect x="22" y="24" width="16" height="24" rx="3" fill="#185C37" />
+  <text x="30" y="41" font-family="Segoe UI, Inter, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">X</text>
+  <defs>
+    <linearGradient id="excel-bg" x1="0" y1="0" x2="72" y2="72" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#107C41" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#185C37" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+</svg>
