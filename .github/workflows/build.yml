@@ -1,0 +1,47 @@
+name: Build and Package OmniWork AI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test_and_build:
+    name: Test, Build & Package
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run test suite
+        run: npm test
+
+      - name: Run TypeScript typecheck
+        run: npm run typecheck
+
+      - name: Build web & electron bundles
+        run: npm run build
+
+      - name: Package Windows installer
+        run: npm run package
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Windows installer artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: OmniWork-AI-Windows-Installer
+          path: dist/*.exe
+          if-no-files-found: warn
