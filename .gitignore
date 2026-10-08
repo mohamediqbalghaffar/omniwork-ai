@@ -12,3 +12,6 @@ test-*.db*
 test-*.xls*
 test-*.csv
 
+
+.vercel
+.env*
